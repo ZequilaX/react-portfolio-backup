@@ -377,4 +377,10 @@
     .timeline__temp-line {
         height: 164rem;
     }
+
+    .timeline__middle-top {
+        transform: translateX(0%);
+        margin-bottom: 5rem;
+    }
+
  }
