@@ -145,7 +145,7 @@
     .spotify__text {
         display: flex;
         align-items: flex-start;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     .spotify__left {

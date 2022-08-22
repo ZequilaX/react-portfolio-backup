@@ -243,6 +243,59 @@
   }
 }
 
+@media (min-width: 992px) {
+  .about__container {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  #about__splash-image {
+    width: 20rem;
+    right: 0;
+    margin-right: 45%;
+  }
+
+  #about__lightning-image-top {
+    width: 5%;
+    margin-right: 2rem;
+    transform: rotate(15deg);
+  }
+
+  #about__lightning-image-bottom {
+    width: 5%;
+    margin-left: 72%;
+    margin-top: 0rem;
+  }
+
+  .about__text-content {
+    width: 70%;
+    padding-right: 1rem;
+  }
+
+  .about__text-content p {
+    font-size: 1rem;
+  }
+
+  .about-image-container {
+    width: 20%;
+  }
+
+  .button__container {
+    justify-content: space-between;
+  }
+
+  .button__container > button {
+    width: 50%;
+  }
+
+
+  .decoration-line-long-white {
+    background: var(--color-white);
+    height: 0.1rem;
+    width: 45%;
+
+  }
+}
 
  
 
