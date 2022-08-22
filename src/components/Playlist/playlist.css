@@ -149,13 +149,14 @@
     }
 
     .spotify__left {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: column;
-        width: 50%;
-        padding-left: 1rem;
-    }
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 50%;
+      margin-right: 10rem;
+  }
+
     .spotify__right {
         display: flex;
         flex-direction: column;

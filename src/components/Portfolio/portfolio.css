@@ -154,7 +154,7 @@
       margin: 4rem 0;
       position: relative;
       width: 50%;
-      display: flex;
+      display: none;
       align-items: center;
       justify-content: center;
       flex-direction: column;
@@ -331,8 +331,46 @@
     margin-top: 8rem;
   }
 
-  .portfolio__buttons-container, .portfolio__preview {
-      display: none;
+  .portfolio__buttons-container {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .portfolio__button {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.portfolio__button-preview {
+  color: var(--color-white);
+  background: var(--primary-bg-color);
+}
+
+.portfolio__button-preview:hover {
+  color: var(--color-white);
+  background: var(--accent-color);
+}
+
+.portfolio__button-source {
+color: var(--primary-bg-color);
+background: var(--color-white);
+border: 1px solid var(--primary-bg-color);
+}
+
+.portfolio__button-source:hover {
+border-color: var(--accent-color);
+}
+
+  .portfolio__preview {
+    display: block;
+
   }
   
 }
