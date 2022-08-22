@@ -1,0 +1,14 @@
+I'm a Front-End Developer from Cape Town, South Africa.
+I have a passion for creating captivating websites and web applications that are easy to use and accessible on any device.
+I’m an experienced graphic and motion designer turned web developer.
+I have a keen eye for detail and a strong understanding of web design principles while tapping into my roots as an artist.
+I am self-driven and focused on developing my skillset as a developer through continous learning.
+
+Creating responsive websites using HTML5, CSS and JavaScript.
+I work with React as I enjoy creating reusable, modular components.
+
+Creating UI mockups in Figma as I believe planning is the most essential part of creating a good design.
+Once you have a good plan, it's easy to execute your ideas and create something great.
+
+Creating logos, captivating brand identities and social media content using the Adobe Suite.
+A strong design helps customers identify what you offer and what your brand's core values are.

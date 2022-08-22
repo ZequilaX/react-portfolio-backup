@@ -1,0 +1,92 @@
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15);
+}
+
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-white);
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+    background: var(--color-white);
+}
+
+nav a.active {
+    background: var(--color-white);
+    color: var(--accent-color);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    nav {
+        padding: 0.7rem 1rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        width: 30%;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 2.5rem;
+        width: 23%;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+}
