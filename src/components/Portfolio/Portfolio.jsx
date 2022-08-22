@@ -32,7 +32,7 @@ const Portfolio = () => {
             <div className="work__right-container">
               <div className="work__right-header">
                 <h1>Projects</h1>
-                <h5 id="project-count">2</h5>
+                <h5 id="project-count">1</h5>
               </div>
               <hr className="work__right-seperator"></hr>
               <ul id="project__list-container">
