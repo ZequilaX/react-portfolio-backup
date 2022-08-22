@@ -9,7 +9,6 @@ import Portfolio from './components/Portfolio/Portfolio'
 import Playlist from './components/Playlist/Playlist'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-import Skills2 from './components/Skills/skills2'
 
 const App = () => {
     return (
@@ -19,7 +18,6 @@ const App = () => {
         <About />
         <Services />
         <Skills />
-        <Skills2 />
         <Experience />
         <Portfolio />
         <Playlist />
