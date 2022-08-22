@@ -53,6 +53,7 @@ const Portfolio = () => {
                     <a href="https://github.com/ZequilaX/Calculator-V2" target="__blank" className="portfolio__button portfolio__button-source">GitHub</a>
                   </div>
                 </li>
+                {/*}
                   <li className="list__object">
                     <a href="https://zequilax.github.io/Calculator-V2/" target="_blank" rel="noreferrer" onmouseover="" onmouseleave="">
                       <div className="projects__row">
@@ -70,7 +71,7 @@ const Portfolio = () => {
                     <a href="https://github.com/ZequilaX/Calculator-V2" target="__blank" className="portfolio__button portfolio__button-source">GitHub</a>
                   </div>
                   </li>
-                  
+    {*/}
               </ul>
             </div>
           </div>
